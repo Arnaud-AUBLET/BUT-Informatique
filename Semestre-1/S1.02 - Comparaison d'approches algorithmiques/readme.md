@@ -1,5 +1,6 @@
 # S1.02 - Comparaison d'approches algorithmiques
-Ce projet (en groupe) est accompagné d'un devoir sur table comptant à 60% de la note finale.  
+Ce projet en groupe, consiste à la simplification de code python.
+Il est accompagné d'un devoir sur table comptant à 60% de la note finale.  
   
 ##### Notes :
 Projet : 17.00       
