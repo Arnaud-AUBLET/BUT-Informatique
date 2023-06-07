@@ -1,5 +1,6 @@
 # S1.01 - Implémentation d’un besoin client
-Ce projet (en groupe) est accompagné d'un devoir sur table comptant à 60% de la note finale.  
+Ce projet en groupe, consiste à l'implémentation d'un code python suivant des consignes.
+Il est accompagné d'un devoir sur table comptant à 60% de la note finale.  
   
 ##### Notes :
 Projet : 17.70        
