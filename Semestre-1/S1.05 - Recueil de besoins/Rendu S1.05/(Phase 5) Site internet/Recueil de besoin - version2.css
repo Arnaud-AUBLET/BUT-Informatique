@@ -1,0 +1,270 @@
+body {
+	background-color: black;
+}
+
+h1 {
+	margin-top: 300px;
+	text-align: center;
+}
+
+.inv {
+	opacity: 0;
+}
+
+.barre, .fin, h1 {
+	color: white;
+	background-color: rgba(211, 211, 211, 0.4);
+}
+
+.fin, .contact{
+	text-align: center;
+	padding: 0.6em;
+	column-rule: solid 3px white;
+	column-count: 3;
+}
+
+.fin img {
+	height: 100px;
+}
+
+.logo {
+	display: flex;
+	height: 170px;
+	margin: 93px auto 0 0;
+	opacity: 0.8;
+	border: 2px solid;
+	border-radius: 5px;
+	border-color: rgba(211, 211, 211, 0.5);
+	float: right;
+}
+
+#copy {
+	font-family: monospace;
+	font-size: 10px;
+}
+
+.titre {
+	text-align: center;
+	color: white;
+	font-size: 28px;
+	text-shadow: #000 1px 0 10px;
+}
+
+.intro {
+	background-image: url("https://s2.best-wallpaper.net/wallpaper/3840x1200/1810/Japan-temple-Fuji-Mount-clouds-dusk_3840x1200.jpg");
+	background-size: 1470px;
+	height: 450px;
+}
+
+.suite {
+	background-image: url("https://media.timeout.com/images/105372728/image.jpg");
+	background-size: 1470px;
+	height: 724px;
+}
+
+.reseaux {
+	border-radius: 5px;
+	display: flex;
+	margin-top: 204px;
+	margin-left: 6px;
+	float: left;	
+}
+
+.reseaux img{
+	height: 50px;
+	padding: 5px;
+	background-color: rgba(211, 211, 211, 0.5);
+}
+
+.photo {
+	text-align: center;
+	padding: 0.6em;
+	column-count: 3;
+}
+
+.photo p {
+	display: block;
+	color: white;
+}
+
+.plats {
+	margin-top: 25px;
+	margin-right: 10px;
+	margin-left: 10px;
+	height: 170px;
+	border: 2px solid;
+	border-radius: 5px;
+	border-color: rgba(211, 211, 211, 0.5);
+}
+
+.images {
+	height: 240px;
+	border: 3px solid;
+	border-radius: 5px;
+	border-color: black;
+	margin-right: 10px;
+	margin-left: 12px;
+}
+
+#mesure {
+	font-family: monospace;
+	font-size: 15px;
+}
+
+.sommaire {
+	display: inline-flex;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	font-family: cursive;
+}
+
+.sous-sommaire {
+	background-color: rgba(211, 211, 211, 0.5);
+	list-style-type: none;
+	display: none;
+	margin: 0;
+	padding: 0;
+	font-family: cursive;
+	position: absolute;
+}
+
+li:hover .sous-sommaire{
+	display: block;
+}
+
+.panier {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	font-family: cursive;
+	float: right;
+    display: inline-flex;
+}
+
+.g {
+	float: left;
+}
+
+.d {
+	float: right;
+}
+
+.panier img {
+	margin-left: 75px;
+	margin-right: 13px;
+	padding: 2.3px;
+	display: block;
+	
+}
+
+.d a, .g a, footer a {
+	color: white;
+	padding: 13px;
+	text-decoration: none;
+	display: block;
+}
+
+.panier img:hover, .barre li a:hover {
+	background-color: rgba(211, 211, 211, 0.7);
+	transition: 0.5s;
+}
+
+.presentation {
+	text-indent: 25px;
+	background-color: rgba(211, 211, 211, 0.6);
+	color: black;
+}
+
+aside {
+	border: 2px solid;
+	float: right;
+	background-color: gray;
+	font-family: monospace;
+}
+
+aside p {
+	text-align: right;
+	margin: 5px;
+	margin-right: 20px;
+}
+
+h3 {
+	text-align: center;
+	margin: 7px;
+}
+
+footer {
+	text-align: center;
+	background-color: #08033a;
+	color: white;
+}
+
+footer p {
+	margin: 13px;
+}
+
+.fond {
+	background-image: url("https://nouveauencuisine.fr/wp-content/uploads/2022/10/24-plats-japonais.jpg");
+	background-size: 1470px;
+	height: 980px;
+}
+
+.contact {
+	border: 1px solid;
+	padding: 5px;
+	margin: 50px 300px 15px 300px;
+	border-color: black;
+	color: white;
+	background-color: rgba(211, 211, 211, 0.9);
+}
+
+.contact a {
+	text-decoration: none;
+	color: white;
+}
+
+.contactez-nous {
+	margin:0 auto;
+  width: 500px;
+  border: 1px solid;
+  padding: 5px;
+  background: rgba(211, 211, 211, 0.7);
+  display: flex;
+  justify-content: center;
+}
+
+form div {
+	display: flex;
+  flex-direction: column;
+  margin-top: 25px;
+}
+
+form div label {
+	margin: 5px;
+  font-weight: bold;
+}
+
+form div input, form div select, form div textarea {
+  background: white;
+  border: none;
+  border-radius: 5px;
+}
+
+form div input, form div select {
+  height: 50px;
+  padding-left: 10px;
+}
+
+form div textarea {
+  height: 195px;
+  padding: 10px;
+}
+
+form button {
+  width: 450px;
+  height: 60px;
+  font-weight: bold;
+  font-size: 30px;
+  border-radius: 5px;
+}
