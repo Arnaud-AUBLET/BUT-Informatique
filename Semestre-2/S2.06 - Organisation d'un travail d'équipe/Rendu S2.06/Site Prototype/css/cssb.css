@@ -1,0 +1,150 @@
+body {
+	background-image: url("https://media.istockphoto.com/id/1288526180/fr/photo/fond-blancs-abstraits-4k.jpg?b=1&s=612x612&w=0&k=20&c=xUNCT90bru5sjkymEvNAh8x6t8pZZ--RQStwCZDHkG8=");
+	background-size: 1600px;
+	background-attachment: fixed;
+}
+
+h1 {
+	font-size: 75px;
+	text-align: center;
+	color: #0C43A9;
+	font-family: monospace;
+	text-decoration: underline;
+}
+
+h2 {
+	font-size: 30px;
+}
+
+#prog {
+	background-color: rgb(12, 67, 169);
+	margin-left: 600px;
+	margin-right: 50px;
+	margin-top: 40px;
+	color: white;
+}
+
+#prog h2, ul {
+	margin-left: 20px;
+}
+
+#prog h2 {
+	padding-top: 5px;
+}
+
+#prog ul {
+	padding-bottom: 7.5px;
+}
+
+.barre {
+	color: black;
+	background-color: rgba(12, 67, 169, 0.4);
+}
+
+.sommaire {
+	display: inline-flex;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	font-family: cursive;
+}
+
+.sous-sommaire {
+	background-color: rgba(12, 67, 169, 0.4);
+	list-style-type: none;
+	display: none;
+	margin: 0;
+	padding: 0;
+	font-family: cursive;
+	position: absolute;
+}
+
+li:hover .sous-sommaire{
+	display: block;
+}
+
+.droite {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	font-family: cursive;
+	float: right;
+    display: inline-flex;
+}
+
+.g {
+	float: left;
+}
+
+.d {
+	float: right;
+}
+
+.d a, .g a {
+	color: black;
+	padding: 13px;
+	text-decoration: none;
+	display: block;
+}
+
+.barre li a:hover {
+	background-color: rgba(12, 67, 169, 0.5);
+	transition: 0.5s;
+}
+
+.presentation {
+	margin-right: 440px;
+	margin-left: 25px;
+	text-indent: 25px;
+	font-size: 25px;
+	background-color: rgb(12, 67, 169);
+	color: white;
+	font-family: cursive;
+	block-size: 450px;
+}
+
+.presentation p {
+	margin: 20px;
+	padding-top: 2.5px;
+}
+
+aside #img1 {
+	margin-right: 25px;
+	margin-top: 88.5px;
+	float: right;
+	height: 550px;
+	width: 380px;
+}
+
+aside #img2 {
+	margin-left: 20px;
+	margin-top: 20px;
+	float: left;
+	height: 250px;
+	width: 500px;
+}
+
+li {
+	font-size: 20px;
+}
+
+.fin {
+	margin-top: 30px;
+	background-color: rgba(12, 67, 169, 0.6);
+	text-align: center;
+	padding: 0.6em;
+	column-rule: solid 3px white;
+	column-count: 3;
+	font-family: unset;
+}
+
+footer {
+	margin-top: 40px;
+	text-align: center;
+	background-color: rgba(12, 67, 169, 0.6);
+	color: black;
+}
+
+footer p {
+	margin: 5px;
+}
